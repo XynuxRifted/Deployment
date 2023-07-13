@@ -1,0 +1,18 @@
+header, footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    z-index: 1;
+    background: linear-gradient(135deg, #000 60%, #333 40%);
+    transform-origin: bottom left;
+}
+
+.btn-primary{
+    background-color: green;
+    border: 0;
+}
+
+.btn-primary:hover{
+    background-color: #0c4c0c;
+    transition:  0.3s ease-in-out;
+}
